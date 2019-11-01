@@ -1,0 +1,44 @@
+{
+  "connection": "default",
+  "collectionName": "employers",
+  "info": {
+    "name": "employer",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "title": {
+      "default": "",
+      "unique": true,
+      "type": "string",
+      "required": true
+    },
+    "time": {
+      "default": "",
+      "type": "string",
+      "required": true
+    },
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "description": {
+      "default": "",
+      "type": "text"
+    },
+    "link": {
+      "default": "",
+      "type": "string"
+    },
+    "website": {
+      "default": false,
+      "type": "boolean"
+    }
+  }
+}
