@@ -1,3 +1,3 @@
-# api
+# Sir Kotsky API
 
-A quick description of api.
+Work in progress.
