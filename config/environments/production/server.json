@@ -12,6 +12,6 @@
     "enabled": false
   },
   "admin": {
-    "path": "/lockit"
+    "autoOpen": false
   }
 }
